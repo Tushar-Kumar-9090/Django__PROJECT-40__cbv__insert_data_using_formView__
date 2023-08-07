@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Inserting data by using TemplateView</h1>
+
+        <form method="POST">
+            {% csrf_token %}
+
+            <table>
+                <tr>
+                    <td>{{SFO}}</td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="TemplateView_Data_Submit">
+
+            
+        </form>
+    </center>
+</body>
+</html>
